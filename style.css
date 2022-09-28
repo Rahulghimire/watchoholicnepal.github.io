@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-box{
+   background-color: black;
+   width: 600px;
+   height: 450px;
+   border-radius: 15px;
+   padding: 20px;
+}
+.black-box p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 36px;
+}
+.black-box h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 112px;
+    text-align: center;
+}
+.black-box h2{
+font-weight: 200;
+font-size: 35px;
+text-align: center;
+}
+.circle {
+    margin: 9px 0 0 10px;
+    width: 125px;
+    height: 125px;
+    background: #991b1b;
+    border-radius: 50%;
+  }
+.time{
+    display: flex;
+}
+.time div{
+    flex-basis: 130px;
+}
+.time .circle p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+.time .circle span{
+   margin-left: 40px;
+   text-align: center;
+}
